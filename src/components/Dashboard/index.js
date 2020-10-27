@@ -27,7 +27,7 @@ import { Alert, AlertTitle } from '@material-ui/lab';
 import Chip from '@material-ui/core/Chip';
 import Tooltip from '@material-ui/core/Tooltip';
 import MonitorIcon from 'react-feather/dist/icons/monitor';
-import InfoIcon from 'react-feather/dist/icons/info';
+// import InfoIcon from 'react-feather/dist/icons/info';
 
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -1733,12 +1733,12 @@ class Dashboard extends Component {
                 <Header style={{ padding: '10px 10px 0px' }}>
                   <MonitorIcon size={22} color={'white'} />
                   <h1 style={{ padding: '0px 0px 0px 12px' }}>Learning Analytics Dashboard</h1>
-                  <div style={{ position: 'absolute', right: '0', marginTop: '6px' }}>
+                  {/* <div style={{ position: 'absolute', right: '0', marginTop: '6px' }}>
                     <Item
                       onClick={this.setChip.bind(this, 'overallView')}>
                       <InfoIcon size={22} color={'white'} />
                     </Item>
-                  </div>
+                  </div> */}
                 </Header>
               </FullContainer>
 
